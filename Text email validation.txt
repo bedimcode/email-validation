@@ -1,0 +1,16 @@
+========== EMAIL ==========
+.form__label
+Email Address
+
+.form__input placeholder
+Write your email
+
+.form__error span
+Invalid email format.
+
+========== EMAIL VALIDATION JS ==========
+/^[^ ]+@[^ ]+\.[a-z]{2,3}$/
+
+// Evaluates if it matches the pattern values
+
+// If the input field is empty, delete classes
